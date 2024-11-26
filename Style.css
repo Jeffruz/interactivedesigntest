@@ -1,0 +1,692 @@
+/*
+* { border: 1px solid red;}
+*/
+
+body {
+
+    font-family: "Outfit", sans-serif;      
+  
+}
+  .main{
+
+    background: #13213C;
+    width: auto;
+    height: 980px;    
+    border-radius: 50px;
+    margin: -8px;
+
+  }
+  
+  
+    .main h1 {
+
+        font-size: 350px;
+        transition: color 0.3s ease;
+        color: #E0DECD;
+        text-align: center;
+        margin: auto; 
+
+    }
+    
+    .main h1:hover { 
+
+        color: #FAA31B; 
+
+      }
+
+    .main h2 {
+
+        font-size: 30px;
+        color: #FAA31B;
+        transition: color 0.3s ease;
+        text-align: center;    
+
+    }
+
+    .main h2:hover { 
+
+        color: #E0DECD; 
+
+    }    
+
+    @keyframes appearDisappear {
+
+        0% { opacity: 0; } 
+        50% { opacity: 1; } 
+        100% { opacity: 0; } 
+
+    }
+
+    .main h5 {
+
+        font-size: 20px;
+        color: #E0DECD;
+        text-align: right;     
+        opacity: 0; 
+        animation: appearDisappear 4s infinite;
+
+    }
+  
+  .backsize{
+
+    background: #E0DECD;   
+    width: 1900px;
+    height: 850px;
+    border-radius: 60px;
+
+  }  
+
+    .tsize{
+
+      color:  #13213C;    
+      text-align: center;
+      font-size: 80px;
+
+    }
+  
+  
+    .size h1 { 
+
+       color: #13213C;
+       animation: colorChangeh1 5s infinite;
+       position: relative; 
+       animation: moveTexth1 5s linear infinite;
+       font-size: 60px;
+       position: absolute;
+       top: 970px;
+       left: 290px; 
+
+    }
+
+    @keyframes colorChangeh1 { 
+
+        0% { color: #13213C; } 
+        70% { color: #FAA31B; } 
+        0% { color: #13213C; } 
+
+    }
+
+    @keyframes moveTexth1 { 
+
+        0% { left: 0; } 
+        50% { left: 95%; 
+              transform: translateX(-100%); 
+            } 
+        100% { left: 0; } 
+    } 
+
+    .size h2 { 
+
+      color: #FAA31B;
+      animation: colorChangeh2 5s infinite;
+      font-size: 300px;
+      position: absolute;
+      top: 1225px;
+      left: 10px; 
+
+    }
+
+      @keyframes colorChangeh2 { 
+
+      0% { color: #FAA31B; } 
+      70% { color: #13213C; } 
+      0% { color: #FAA31B; }
+
+      }  
+
+      .size h3 { 
+
+      color: #13213C;
+      animation: colorChangeh3 5s infinite;
+      font-size: 230px;
+      position: absolute;
+      top: 800px;
+      right: 303px; 
+
+      }
+
+      @keyframes colorChangeh3 { 
+
+      0% { color: #13213C; } 
+      70% { color: #FAA31B; } 
+      0% { color: #13213C; } 
+
+      }
+
+      .size h4 { 
+
+      color: #FAA31B;
+      animation: colorChangeh4 5s infinite;
+      font-size: 95px;
+      position: absolute;
+      top: 890px;
+      right: 30px;   
+
+      }
+
+      @keyframes colorChangeh4 { 
+
+      0% { color: #FAA31B; } 
+      70% { color: #13213C; } 
+      0% { color: #FAA31B; } 
+
+      }
+
+  .backstyle{
+
+    background: #13213C;    
+    width: auto;
+    height: auto;      
+    border-radius: 50px; 
+
+  }    
+
+    .stylee h1{
+
+      color:  #E0DECD;      
+      font-size: 80px;
+      text-align: center;
+      animation: colorstyleeh1  5s infinite;      
+      
+     }
+
+      @keyframes colorstyleeh1 { 
+        0% { color: #E0DECD; } 
+        70% { color: #FAA31B; } 
+        0% { color: #E0DECD;} 
+      }
+
+    
+
+  .text1{
+
+    color: #FAA31B;     
+    
+  }
+    
+    .text1 h1{     
+    
+      font-size: 30px;
+      transition: all 0.3s ease;
+      text-align: center;
+      font-weight: 50;
+      font-weight: bold;
+    }
+
+    .text1 h1:hover{
+      
+      color: #E0DECD;
+      font-family: "Outfit", serif;
+      font-optical-sizing: auto;
+      font-weight: 100;   
+      font-size: 90px;   
+    }
+    
+    .text1 h2{
+      
+      font-size: 30px;      
+      transition: all 0.3s ease;
+      text-align: center;   
+      font-weight: 50;   
+      font-weight: bold;
+    }
+
+    .text1 h2:hover{
+      color: #E0DECD;
+      font-family: "Outfit", serif;
+      font-optical-sizing: auto;
+      font-weight: 200;  
+      font-size: 90px;    
+    }
+
+    .text1 h3{
+
+      font-size: 30px;      
+      transition: all 0.3s ease;
+      text-align: center;
+      font-weight: 50;  
+      font-weight: bold;      
+    }
+
+    .text1 h3:hover{
+
+      color: #E0DECD;
+      font-family: "Outfit", serif;
+      font-optical-sizing: auto;
+      font-weight: 300;   
+      font-size: 90px;   
+    }
+
+    .text1 h4{
+      
+      font-size: 30px;      
+      transition: all 0.3s ease;
+      text-align: center;
+      font-weight: 50;  
+      font-weight: bold;
+    }
+
+    .text1 h4:hover{
+
+      color: #E0DECD;
+      font-family: "Outfit", serif;
+      font-optical-sizing: auto;
+      font-weight: 400;    
+      font-size: 90px;  
+    }
+
+    .text1 h5{
+
+      font-size: 30px;      
+      transition: all 0.3s ease;
+      text-align: center;
+      font-weight: 50;  
+      font-weight: bold;
+    }    
+
+    .text1 h5:hover{
+
+      color: #E0DECD;
+      font-family: "Outfit", serif;
+      font-optical-sizing: auto;
+      font-weight: 500;   
+      font-size: 90px;   
+    }
+
+  .text2{
+       
+    color: #FAA31B; 
+    
+  }  
+    
+    .text2 h1{
+
+      text-align: center;      
+      transition: all 0.3s ease;
+      font-size: 30px;
+      font-weight: 50;  
+      font-weight: bold;
+    }
+
+    .text2 h1:hover{
+
+      color: #E0DECD;
+      font-family: "Outfit", serif;
+      font-optical-sizing: auto;
+      font-weight: 600;   
+      font-size: 90px;   
+    }
+
+    .text2 h2{
+
+      text-align: center;      
+      transition: all 0.3s ease;
+      font-size: 30px;
+      font-weight: 50;  
+      font-weight: bold;
+    }
+
+    .text2 h2:hover{
+
+      color: #E0DECD;
+      font-family: "Outfit", serif;
+      font-optical-sizing: auto;
+      font-weight: 700;     
+      font-size: 90px; 
+    }
+
+    .text2 h3{
+
+      text-align: center;      
+      transition: all 0.3s ease;
+      font-size: 30px;
+      font-weight: 50;  
+      font-weight: bold;
+    }
+
+    .text2 h3:hover{
+
+      color: #E0DECD;
+      font-family: "Outfit", serif;
+      font-optical-sizing: auto;
+      font-weight: 800;  
+      font-size: 90px;    
+    }
+    
+    .text2 h4{
+
+      text-align: center;      
+      transition: all 0.3s ease;
+      font-size: 30px;
+      font-weight: 50;  
+      font-weight: bold;
+    }
+
+    .text2 h4:hover{
+
+      color: #E0DECD;
+      font-family: "Outfit", serif;
+      font-optical-sizing: auto;
+      font-weight: 900;      
+      font-size: 90px;
+    }
+
+
+  .backset{
+
+      background: #E0DECD;      
+      height: auto; 
+      width: auto;    
+      border-radius: 50px;  
+  
+  }  
+    
+
+     .character h1{
+
+      color:  #13213C;
+      height: 50px; 
+      text-align: center;
+      font-size: 80px;
+      animation: colorcharacterh1  5s infinite;    
+
+     }
+
+      @keyframes colorocharacter1 { 
+
+        0% { color: #FAA31B; } 
+        70% { color: #13213C; } 
+        0% { color: #FAA31B; } 
+
+      }   
+     
+     .h1{
+
+      padding: 20px;
+      color:  #FAA31B;
+      text-align: center;
+      font-size: 50px;
+      font-weight: bold;
+      visibility: hidden;  
+
+     }
+     
+     .h1:hover {
+
+      visibility: visible;
+
+    }
+
+     .h2{  
+
+      color:   #13213C;
+      text-align: center;
+      font-size: 50px;   
+      font-weight: bold;    
+      visibility: visible;
+
+     }
+      
+
+     .h3{   
+
+      padding: 20px; 
+      color:  #FAA31B;
+      text-align: center;
+      font-size: 50px;
+      font-weight: bold;
+      visibility: hidden;
+
+     }
+
+     .h3:hover {
+
+      visibility: visible;
+
+     }
+
+     .h4{    
+
+      color:   #13213C;
+      text-align: center;
+      font-size: 50px;
+      font-weight: bold;
+      visibility: visible;  
+
+     }
+
+     .h5{     
+
+      padding: 20px;
+      color:  #FAA31B;
+      text-align: center;
+      font-size: 50px;
+      font-weight: bold;
+      visibility: hidden; 
+
+     }
+
+     .h5:hover {
+
+      visibility: visible;
+
+     }
+
+     .h6{   
+
+      color:  #13213C;
+      text-align: center;
+      font-size: 50px;
+      font-weight: bold;
+      visibility: visible;  
+
+     }
+
+     .h7{     
+
+      padding: 20px;
+      color:  #FAA31B;
+      text-align: center;
+      font-size: 50px;
+      font-weight: bold;
+      visibility: hidden; 
+
+     }
+
+     .h7:hover {
+
+      visibility: visible;
+
+     }
+
+     .h8{  
+
+      color:   #13213C;
+      text-align: center;
+      font-size: 50px;
+      font-weight: bold;
+      visibility: visible; 
+
+     }
+
+  .bioo{
+
+    background: #13213C;
+    width: auto;    
+    height: auto;
+    border-radius: 50px;
+
+  } 
+
+  .bio h1{
+    
+    color:  #E0DECD;
+    height: 50px; 
+    text-align: center;
+    font-size: 80px;
+    animation: colorbioh1  5s infinite;    
+
+   }
+
+    @keyframes colorbioh1 { 
+      0% { color: #E0DECD } 
+      70% { color: #FAA31B; } 
+      0% { color: #E0DECD } 
+    }
+
+    .about{ 
+
+      display: flex; 
+      justify-content: center; 
+      align-items: center; 
+      height: 70vh; /* Full height of the viewport */ 
+
+    } 
+
+    .grid { 
+
+      display: grid; 
+      grid-template-columns: repeat(2, 500px); 
+      grid-gap: 300px; /* Space between squares */ 
+
+    } 
+    
+    .square { 
+
+      width: 500px; 
+      height: 300px;      
+      display: flex; 
+      justify-content: center; 
+      align-items: center; 
+      color:   #E0DECD;
+      text-align: left;    
+      font-size: 50px;
+      transition: color 0.3s ease;  
+
+    }
+
+    .square:hover { 
+
+      color: #FAA31B; 
+
+    }    
+  
+  .more{
+
+    padding: 10px;
+    color: #FAA31B;
+    text-align: center;    
+    font-size: 50px;
+    transition: color 0.3s ease; 
+
+  }
+
+  .more:hover { 
+
+    color: #E0DECD; 
+
+  }    
+  
+  .DesignBack{
+
+    background:  #E0DECD;
+    border-radius: 50px;
+    height: auto;
+    width: auto;
+    margin: -8px;
+
+  } 
+  
+  .design h1{ 
+
+    color:  #13213C;    
+    text-align: center;
+    font-size: 80px;
+
+  }
+
+  .designers1{    
+
+    color: #13213C;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 50vh; /* Full height of the viewport */ 
+
+  } 
+
+  .grid2 { 
+
+    display: grid; 
+    grid-template-columns: repeat(2, 650px);        
+    grid-gap: 100px; /* Space between squares */ 
+
+  } 
+  
+  .square2 { 
+
+    width: 600px; 
+    height: 300px;      
+    display: flex; 
+    justify-content: center; 
+    align-items: center;          
+    font-size: 40px;    
+
+  }
+
+  .grid2 .cover-image { 
+
+    display: none; 
+    position: absolute;     
+    width: 30%  ; 
+    height: 35%; 
+    z-index: 1; 
+
+  }
+
+  .grid2:hover .cover-image { 
+
+    display: block; 
+
+  }  
+
+
+  .grid3 { 
+
+    display: grid; 
+    grid-template-columns: repeat(2, 650px);     
+    grid-gap: 100px; /* Space between squares */ 
+
+  } 
+
+  .square3 { 
+
+    width: 600px; 
+    height: 300px;      
+    display: flex; 
+    justify-content: center; 
+    align-items: center;          
+    font-size: 40px;  
+
+  }  
+
+  .grid3 .cover-image3 { 
+
+    display: none; 
+    position: absolute;     
+    width: auto; 
+    height: auto; 
+    z-index: 10; 
+
+  }
+
+  .grid3:hover .cover-image3 { 
+
+    display: block; 
+
+  }
+
+  
+  
+
+  
