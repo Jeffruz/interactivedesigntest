@@ -1,10 +1,15 @@
 /*
 * { border: 1px solid red;}
 */
+.html{
+
+  scroll-behavior: smooth;
+}
 
 body {
 
-    font-family: "Outfit", sans-serif;      
+    font-family: "Outfit", sans-serif;     
+
   
 }
   .main{
@@ -13,11 +18,15 @@ body {
     width: auto;
     height: 980px;    
     border-radius: 50px;
-    margin: -8px;
+   
 
   }
   
-  
+    .main h3{
+
+      padding: 75px;
+
+    }
     .main h1 {
 
         font-size: 350px;
@@ -55,46 +64,30 @@ body {
         50% { opacity: 1; } 
         100% { opacity: 0; } 
 
-    }
+    }  
 
-    .main h5 {
-
-        font-size: 20px;
-        color: #E0DECD;
-        text-align: right;     
-        opacity: 0; 
-        animation: appearDisappear 4s infinite;
-
-    }
+   
   
   .backsize{
 
     background: #E0DECD;   
-    width: 1900px;
+    width: auto;
     height: 850px;
-    border-radius: 60px;
+    border-radius: 50px;
+    padding: auto;
+    
 
-  }  
-
-    .tsize{
-
-      color:  #13213C;    
-      text-align: center;
-      font-size: 80px;
-
-    }
-  
-  
+  }    
+   
     .size h1 { 
 
        color: #13213C;
        animation: colorChangeh1 5s infinite;
-       position: relative; 
-       animation: moveTexth1 5s linear infinite;
+       position: relative;        
        font-size: 60px;
-       position: absolute;
-       top: 970px;
-       left: 290px; 
+       top: 10px;
+       left: 550px; 
+       
 
     }
 
@@ -106,14 +99,6 @@ body {
 
     }
 
-    @keyframes moveTexth1 { 
-
-        0% { left: 0; } 
-        50% { left: 95%; 
-              transform: translateX(-100%); 
-            } 
-        100% { left: 0; } 
-    } 
 
     .size h2 { 
 
@@ -158,9 +143,10 @@ body {
       color: #FAA31B;
       animation: colorChangeh4 5s infinite;
       font-size: 95px;
+      
       position: absolute;
-      top: 890px;
-      right: 30px;   
+      top: 980px;
+     left: 1700px;   
 
       }
 
@@ -178,15 +164,17 @@ body {
     width: auto;
     height: auto;      
     border-radius: 50px; 
+    padding: auto;
 
   }    
 
     .stylee h1{
 
       color:  #E0DECD;      
-      font-size: 80px;
+      font-size: 100px;
       text-align: center;
-      animation: colorstyleeh1  5s infinite;      
+      animation: colorstyleeh1  5s infinite;     
+      padding: 10px; 
       
      }
 
@@ -195,8 +183,7 @@ body {
         70% { color: #FAA31B; } 
         0% { color: #E0DECD;} 
       }
-
-    
+   
 
   .text1{
 
@@ -360,6 +347,7 @@ body {
       font-size: 30px;
       font-weight: 50;  
       font-weight: bold;
+      padding: 20px; 
     }
 
     .text2 h4:hover{
@@ -378,6 +366,7 @@ body {
       height: auto; 
       width: auto;    
       border-radius: 50px;  
+ 
   
   }  
     
@@ -388,7 +377,8 @@ body {
       height: 50px; 
       text-align: center;
       font-size: 80px;
-      animation: colorcharacterh1  5s infinite;    
+      animation: colorcharacterh1  5s infinite;   
+      padding: 10px;  
 
      }
 
@@ -506,15 +496,17 @@ body {
       font-size: 50px;
       font-weight: bold;
       visibility: visible; 
+      padding: 10px; 
 
      }
 
-  .bioo{
+  .bioback{
 
     background: #13213C;
     width: auto;    
-    height: auto;
+    height: 910px;
     border-radius: 50px;
+    padding: auto;
 
   } 
 
@@ -525,6 +517,7 @@ body {
     text-align: center;
     font-size: 80px;
     animation: colorbioh1  5s infinite;    
+    padding: 20px; 
 
    }
 
@@ -578,6 +571,7 @@ body {
     text-align: center;    
     font-size: 50px;
     transition: color 0.3s ease; 
+    padding: 20px; 
 
   }
 
@@ -591,9 +585,9 @@ body {
 
     background:  #E0DECD;
     border-radius: 50px;
-    height: auto;
+    height: 1200px;
     width: auto;
-    margin: -8px;
+    padding: auto;
 
   } 
   
@@ -602,6 +596,7 @@ body {
     color:  #13213C;    
     text-align: center;
     font-size: 80px;
+    
 
   }
 
@@ -625,8 +620,8 @@ body {
   
   .square2 { 
 
-    width: 600px; 
-    height: 300px;      
+    width: auto; 
+    height: auto;      
     display: flex; 
     justify-content: center; 
     align-items: center;          
@@ -638,8 +633,8 @@ body {
 
     display: none; 
     position: absolute;     
-    width: 30%  ; 
-    height: 35%; 
+    width: 650px; 
+    height: 300px; 
     z-index: 1; 
 
   }
@@ -661,8 +656,8 @@ body {
 
   .square3 { 
 
-    width: 600px; 
-    height: 300px;      
+    width: auto; 
+    height: auto;      
     display: flex; 
     justify-content: center; 
     align-items: center;          
@@ -686,7 +681,208 @@ body {
 
   }
 
+  .infoback{
+
+    background: #13213C;
+    border-radius: 50px;
+    height: 800px;
+    width: auto;
+    padding: auto;
+
+  } 
+
+  .usage h1{ 
+
+    color:  #E0DECD;  
+    text-align: center;
+    font-size: 80px;    
+
+  }
+
+  .grid4 { 
+
+    display: grid; 
+    grid-template-rows: repeat(2, 300px);     
+    grid-gap: 50px; /* Space between squares */ 
+
+  } 
+
+  .square4 { 
+
+    width: auto; 
+    height: auto;      
+    display: flex; 
+    justify-content: center; 
+    align-items: center;          
+    
+
+  }  
+
+  .count{
+
+    color:  #FAA31B; 
+    font-size: 300px;
+    text-align: center;
+
+  }
+
+  .info2 h1{
+     color:  #FAA31B;  
+     text-align: right;
+     font-size: 40px; 
+
+
+  }
+
+  .info h1{     
+
+     color:  #E0DECD;  
+     text-align: center;
+     font-size: 40px;    
+     overflow: hidden; white-space: nowrap; 
+     border-right: 0.15em solid black; 
+     animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite; 
   
+   
+   } 
+   
+   @keyframes typing { 
+     
+     from { 
+       width: 0; 
+     } to { 
+       width: 100%; 
+     } 
+   
+   }
+   
+   @keyframes blink-caret { 
+     
+     from, to { 
+       border-color: transparent; 
+     } 50% { 
+       border-color: black; 
+     } 
+   }
+
+   .countryback{
+
+    background:  #E0DECD;
+    border-radius: 50px;
+    height: 800px;
+    width: auto;
+    
+
+  } 
+
+  .top{
+   
+      color:  #13213C;      
+      text-align: center;
+      font-weight: 300px;
+      font-size: 100px;
+      font-weight: bold;
+  }
+
+  .nums{
+
+    font-size: 70px; 
+    font-weight:800;
+    color: #FAA31B; 
+  }
+
+  .countries{
+
+    font-size: 70px; 
+    font-weight:800;
+    color: #13213C;
+  }
+
+  .grid5 { 
+
+    display: grid; 
+    grid-template-columns: repeat(2, 600px);   
+    grid-template-rows: repeat(5, 50px);      
+    padding: 70px;
+    justify-content: center; 
+   
+    
+    
+  } 
+
+  .square5 { 
+
+    width: 600px; 
+    height: 80px;      
+    display: flex; 
+    
+    justify-content: center; 
+   
+    
+  }
+
+  .nums1{
+
+    display: none;  
+    
+  }
   
+  .country1{
+
+    cursor: pointer;
+   
+  }
+
+  .nums2{
+
+    display: none; 
+ 
+  }
+  
+  .country2{
+
+    cursor: pointer;
+
+  }
+
+  .nums3{
+
+    display: none; 
+   
+  }
+  
+  .country3{
+
+    cursor: pointer;
+   
+  }
+
+  .nums4{
+
+    display: none; 
+  
+  }
+  
+  .country4{
+
+    cursor: pointer;
+  
+  }
+
+  .nums5{
+
+    display: none; 
+  
+  }
+  
+  .country5{
+
+    cursor: pointer;
+  
+  }
+
+
+  
+
 
   
